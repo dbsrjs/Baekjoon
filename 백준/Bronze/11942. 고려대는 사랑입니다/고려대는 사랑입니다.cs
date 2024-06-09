@@ -1,0 +1,1 @@
+Console.Write("고려대학교");
