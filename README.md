@@ -1,2 +1,2 @@
 # Baekjoon
-C#, JAVA, Python
+C#, JAVA, Python Algorithm
