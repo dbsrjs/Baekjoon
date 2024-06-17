@@ -1,13 +1,16 @@
-import java.util.Scanner;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 
-public class Main {
+// The main method must be in a class named "Main".
+class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int sum = 0;
-        for (int i = 1; i <= num; i++) {
-            sum += i;
-        }
-        System.out.println(sum);
+        int n = sc.nextInt();
+        int num = 0;
+        
+        for (int i = 1; i <= n; i++)
+            num += i;
+        System.out.println(num);
     }
 }
