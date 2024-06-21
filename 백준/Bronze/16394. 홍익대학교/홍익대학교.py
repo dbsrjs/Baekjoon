@@ -1,3 +1,2 @@
-h = 1946
 n = int(input())
-print(n-h)
+print(n-1946)
