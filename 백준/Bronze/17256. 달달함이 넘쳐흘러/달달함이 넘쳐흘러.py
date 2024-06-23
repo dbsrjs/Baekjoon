@@ -1,0 +1,5 @@
+ax, ay, az = map(int, input().split())
+cx, cy, cz = map(int, input().split())
+print(cx - az, (int(cy / ay)), (cz - ax))
+# (c.z - a.x, c.y / a.y, c.x - a.z)
+#a 🍰 b = (a.z + b.x, a.y × b.y, a.x + b.z)
