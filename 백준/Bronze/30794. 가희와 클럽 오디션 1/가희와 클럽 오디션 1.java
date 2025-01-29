@@ -17,5 +17,7 @@ public class Main {
             System.out.println(600 * lv);
         else if (sign.equals("perfect"))
             System.out.println(1000 * lv);
+
+        sc.close();
     }
 }
